@@ -10,7 +10,8 @@ return (
 
          <div className="blur bg-orange-600 bg-opacity-60 left-[20%] z-0 "></div>
          <div className="blur bg-red-600 max-md:bottom-10 right-[20%] bg-opacity-60 z-0"></div>
-        <Animated del={2}> <h1 className="italic text-[3rem] max-sm:text-[2.5rem] uppercase font-bold relative  text-center">
+        <div className="flex justify-center">
+            <Animated del={2}> <h1 className="italic text-[3rem] max-sm:text-[2.5rem] uppercase font-bold relative  text-center">
 
                 <span className="clip-text">READY TO START</span> 
                 <span className=" max-md:mx-2 mx-14">YOUR JOURNEY</span>  
@@ -18,6 +19,8 @@ return (
 
             </h1>
         </Animated>
+        </div>
+        
         <div className="flex items-center max-sm:space-y-12 relative   mt-20 flex-wrap justify-center gap-16">
 
             <div className="plan bg-[#656565] p-6 rounded-lg">
